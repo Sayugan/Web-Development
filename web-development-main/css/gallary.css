@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.background1{
+    height: 85vh;
+    
+}
+*.background2{
+    height: 22vw;
+    /*background-image:url("istockphoto-1322859145-612x612.jpg");*/
+    background-image: linear-gradient(to right top, #f6b00c, #f1ac0e, #eca90f, #e7a511, #e2a212, #d2980f, #c28f0d, #b3850b, #977307, #7c6105, #624f03, #4b3e02);}
+.background3{
+    
+    
+}
+#ronaldoText, #neymarText, #teamText, #peleText{
+    display: none;  
+  }
+  .big{
+    float: left; /* side by side large image and dicription */
+    padding: 2vw;
+  }
+  .allButtons{
+    height: 45px;/* COLOR BUTTONS   background */
+    background: rgb(236,189,87);
+    background: linear-gradient(90deg, rgba(236,189,87,1) 0%, rgba(231,164,16,1) 38%, rgba(223,129,13,1) 85%);
+    padding: 2px;
+  }
+  .textButton{ 
+    float: left;
+  }
+  .color_button{
+    float: right;
+  }
+  .button{
+    height: 25px;/* Button (color) */
+    width: 45px;
+    margin: 5px;
+    padding: 5px;
+  }
+  h3{
+    text-align: center; 
+    margin: 10px;
+    padding: 10px;
+    color: #efecec;
+  }
+#galleryImages{
+    height: 55vh;
+
+  }
+  #expandedImage{
+    border-radius: 55px;
+  }
+.sideImage{ 
+    float: left;
+    padding-left: 1%;
+    padding-top: 2%;
+    height: 22vh;
+    width: 15%;
+    border-radius: 20px;
+    box-shadow: 10px 10px rgba(2, 2, 2, 0.233);
+    
+
+  }
+ .sideImage:hover{
+    transform: scale(1.1); /* (110% zoom )*/
+    box-shadow: 3px 5px  rgb(206, 119, 6);
+    cursor:pointer;
+}
+ 
+  .contecntTExt{
+    height: 16.5vw;
+    width: 1000px;
+    border-style: double;
+    
+}
+#football{ /* gallery topic*/
+    font-size: 4vw;
+    text-align: center;
+    margin: 10px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: white;
+    
+                -webkit-background-clip: text;
+    color:transparent;
+
+}
+.description{
+    color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.bttnClick{
+    text-align: center;
+}
+#button1,#button2,#button3,#button4{
+    border-radius: 35px;
+}
+#button1{
+    background-color: #11bdc6;
+    
+}
+#button1:hover{
+    background-color: rgb(0, 238, 255);
+}
+#button2{
+    background-color: #00ff00;
+}
+#button2:hover{
+    background-color: rgb(8, 104, 29);
+}
+#button3{
+    background-color: blueviolet;
+}
+#button3:hover{
+    background-color: rgb(159, 70, 241);
+}
+#buton4{
+    background-color: rgb(50, 50, 48);
+}
+#button4:hover{
+    background-color: #05050533;
+}
+#button3:hover{
+    background-color: rgba(200, 196, 203, 0.489);
+}
+.topicBttn{ /* (click) button */
+ 
+    position: relative;
+    padding: 10px 30px;
+    margin: 0 15ps;
+    color: #DC9D13;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.4vw;
+    font-size: 1.5vw;
+    transition: 0.5s;
+    text-align: center;
+    
+    
+    
+
+}
+.topicBttn:hover::before{/* (click) button */
+    width: 100%;
+    height: 100%;
+}
+.topicBttn:before{/* (click) button */
+    content: '';
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 10px;
+    height: 10px;
+    border-top:2px solid #DC9D13 ;
+    border-left: 2px solid #DC9D13 ;
+    transition:0.5s ;
+}
+.topicBttn::after{/* (click) button */
+    content:'';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #DC9D13  ;
+    border-right: 2px solid #DC9D13 ;
+    transition: 0.5s;
+
+}
+.topicBttn:hover::after{/* (click) button */
+    width: 100%;
+    height: 100%; 
+}
+.column{
+    margin-left: 18%;
+    width: 100%;
+}
+#slider{
+    margin-top: 10px;
+    margin-left: 10px;
+    accent-color: rgb(30, 0, 255);
+
+}
+.mainF { /* Fottball topic */
+ 
+ padding: 6vw;
+ padding-top: 37vh;
+ text-align: center;
+ font-size: 7vw;
+ font-weight: 500;
+ letter-spacing: 10px;
+
+
+}
+.mainF span{
+    animation: animate 10s linear infinite;
+}
+@keyframes animate{
+
+    0%{
+        color: rgb(243, 251, 252);
+        box-shadow: none;
+    }
+    25%{
+
+        color: rgba(189, 193, 195, 0.993);
+        box-shadow: none;
+    }
+
+    50%{
+        color: rgba(135, 136, 140, 0.623);
+        box-shadow: none;
+    }
+    100%{
+        color: rgb(243, 243, 249);
+        box-shadow: none;
+    }
+
+}

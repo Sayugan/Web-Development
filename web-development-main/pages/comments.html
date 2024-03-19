@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width-device-width">
+    <title>Football - Comments</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/nav.css">
+    <link rel="stylesheet" type="text/css" href="../css/comments.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div>
+      <div class="nav-container">
+        <div class="logo-section">
+          <img class="logo" src="../images/logo.png" alt="">
+        </div>
+        <nav id="navigation" class="nav-items">
+          <ul>
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a href="comments.html" class="nav-link">Comments</a>
+            </li>
+            <li class="nav-item">
+              <a href="shop.html" class="nav-link">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a href="quiz.html" class="nav-link">Quiz</a>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="sitemap.html" class="nav-link">Sitemap</a>
+            </li>
+            <li class="nav-item">
+              <a href="details.html" class="nav-link">About Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- Navbar End -->
+
+    <br><br>
+    <div class="container">
+      <form
+        name="myform"
+        action="mailto:sayugan.20220645@iit.ac.lk"
+        method="post"
+        enctype="text/plain"
+        onsubmit="return validation()"
+      >
+        <label for="first_name"><b>YOUR NAME</b></label>
+        <input
+          type="text"
+          name="first_name"
+          placeholder="Enter Your Name"
+          id="first_name"
+          required
+       >
+        <label for="email"><b>YOUR E-MAIL ID</b></label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter Your Email"
+          id="email"
+          required
+       >
+        <label for="Any Feedback"><b>YOUR FEEDBACK</b></label>
+        <textarea
+          name="Any Feedback"
+          placeholder="Enter Your Comment"
+          cols="22"
+          rows="5"
+          id="msg"
+          required
+        ></textarea>
+        <label><b>PLEASE RATE OUR WEBSITE WITH YOUR USER EXPERIENCE</b></label
+        ><br>
+        <table>
+          <tr>
+            <td class="rate">Very Bad</td>
+            <td class="rate">Bad</td>
+            <td class="rate">Fair</td>
+            <td class="rate">Good</td>
+            <td class="rate">Very Good</td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="radio"
+                name="rate"
+                value="Very Bad"
+                id="verybad"
+                required
+             >
+            </td>
+            <td>
+              <input type="radio" name="rate" value="Bad" id="bad" required>
+            </td>
+            <td>
+              <input type="radio" name="rate" value="Fair" id="fair" required>
+            </td>
+            <td>
+              <input type="radio" name="rate" value="Good" id="good" required>
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="rate"
+                value="Very Good"
+                id="verygood"
+                required
+             >
+            </td>
+          </tr>
+        </table>
+        <button class="submit" value="Send">Submit</button>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <div class="footer-container">
+          <h3 class="copyright">Copyright &copy; 2023. All Rights Reserved.</h3>
+        </div>
+
+        <div class="footer-container">
+          <span id="page_editor" class="page-editor" data-student="2"
+            >Page Editor</span
+          >
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script>
+      function validation() {
+        var Excellent = document.getElementById("Excellent").checked;
+        var Grate = document.getElementById("Grate").checked;
+        var Poor = document.getElementById("Poor").checked;
+        var Bad = document.getElementById("Bad").checked;
+        var rate = " ";
+
+        if (document.getElementById("first_name").value == " ") {
+          alert("Please enter your Name!!!");
+
+          return false;
+        } else if (document.getElementById("email").value == " ") {
+          alert("Please enter your email!!!");
+
+          return false;
+        } else if (document.getElementById("Any Feedback").value == " ") {
+          alert("Please enter your Any Feedback!!!");
+
+          return false;
+        } else if (
+          Excellent == false &&
+          Grate == false &&
+          Poor == false &&
+          Bad == false
+        ) {
+          alert("Please rate our website!!!!");
+          return false;
+        } else {
+          alert("Thanks for you valubale time");
+        }
+
+        if (Excellent == true) {
+          msg = "Excellent";
+        } else if (Good == true) {
+          msg = "Grate";
+        } else if (Poor == true) {
+          msg = "Poor";
+        } else {
+          msg = "Bad";
+        }
+
+        alert(
+          "Dear " +
+            document.getElementById("first_name").value +
+            ", Thank you very much for your feedback. You have rated our site as " +
+            msg +
+            "."
+        );
+      }
+    </script>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>

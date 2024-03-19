@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Football</title>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        background: linear-gradient(
+            45deg,
+            rgba(107, 107, 107, 0.856),
+            rgba(0, 0, 0, 0.689)
+          ),
+          url("https://c4.wallpaperflare.com/wallpaper/398/874/541/champions-league-stadium-wallpaper-preview.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        margin: 10px;
+        padding: 10px;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 5em;
+        margin-top: 7%;
+        text-shadow: 2px 2px 4px #5dea2e;
+      }
+      p {
+        font-size: 1.8em;
+        margin-top: 6em;
+      }
+
+      ul {
+        font-size: 1.2em;
+        margin-top: 10em;
+      }
+
+      #loading {
+        font-size: 30px;
+        /* text-shadow: #eee780; */
+        color: #eee780;
+        text-align: center;
+        animation: fadein 6s;
+      }
+      @keyframes fadein {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+    <script>
+      localStorage.setItem("presented", true);
+      setTimeout(function () {
+        window.location.href = "index.html";
+      }, 10000); // Change this value to adjust the splash screen duration
+    </script>
+  </head>
+
+  <body>
+    <h1>Welcome to the Football Arena</h1>
+    <p>
+      Are you a diehard football fan?<br />
+      Then you are at the exact right place. Here we provide you with almost
+      everything regarding football such as the details and news of
+      players,teams and leagues and a great collection of photos. At the same
+      time you have got the opportunity to buy quality items and equipments
+      related to football from us to a profitable price.
+    </p>
+    <div id="splash">
+      <div id="loading"><b>LOADING....</b></div>
+    </div>
+    <ul>
+      <li><h3>Our Group Members</h3></li>
+      <li>Sasindu Wickramasinghe</li>
+      <li>Sayugan</li>
+      <li>Farhan</li>
+      <li>Oshada Wasath</li>
+    </ul>
+  </body>
+</html>

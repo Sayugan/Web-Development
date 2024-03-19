@@ -1,0 +1,189 @@
+{
+    "students": [
+        {
+            "name": "Sasindu",
+            "surname": "Wickramasinghe",
+            "role": 1,
+            "image": "student-1.jpg",
+            "uow_id": "w1956191",
+            "iit_id": "20221535",
+            "tasks": [
+                {
+                    "title": "Presentation Page",
+                    "descriptions": [
+                        "Creaated presentation page using html,css & JavaScript."
+                    ],
+                    "link": "../pages/"
+                },
+                {
+                    "title": "Buy Products",
+                    "descriptions": [
+                        "Created a buy products page with 9 items.",
+                        "Used <strong>CSS</strong> to style the page.",
+                        "Used <strong>JavaScript</strong> to buy products and issue a bill."
+                    ],
+                    "link": "../pages/shop.html"
+                },
+                {
+                    "title": "Extra Content Page (Players)",
+                    "descriptions": [
+                        "Created a page called player using HTML, CSS & JavaScript.",
+                        "Fetch the details of players using <strong>JavaScript</strong>.",
+                        "Found relavant pictures for the extra content page."
+                    ],
+                    "link": "../pages/player.html"
+                },
+                {
+                    "title": "Page Editor",
+                    "descriptions": [
+                        "Created using HTML, CSS & JavaScript.",
+                        "Linked it to the footers of relavant web pages according to the student role."
+                    ],
+                    "link": "../pages/page_editor.html"
+                }
+            ]
+        },
+        {
+            "name": "Sayugan",
+            "surname": "Sureshkumar",
+            "role": 2,
+            "image": "student-2.jpg",
+            "uow_id": "w1953302",
+            "iit_id": "20220645",
+            "tasks": [
+                {
+                    "title": "Home Page",
+                    "descriptions": [
+                        "In Home page, I worked with <strong>Farhan</strong> to create the page structure.",
+                        "created nav bar.",
+                        "I used <storng>css</storng> to style home page and nav bar.",
+                        "Created a footer."
+                    ],
+                    "link": "../index.html"
+                },
+                {
+                    "title": "Comments Page",
+                    "descriptions": [
+                        "Created comments page using HTML, CSS & JavaScript.",
+                        "Created <strong>JavaScript</strong> to check the answer and check output.",
+                        "Created the method attribute specifies that the form data will be sent using the HTTP POST method.",
+                        "The inputs will be sent to a my email address.",
+                        "Used <strong>CSS</strong> to style the comment page."
+                    ],
+                    "link": "../pages/comments.html"
+                },
+                {
+                    "title": "Extra Content Page (Players)",
+                    "descriptions": [
+                        "Created player page using HTML.",
+                        "I'm support to <strong>farhan</strong> some players pictures and background images."
+                    ],
+                    "link": "../pages/player.html"
+                },
+                {
+                    "title": "Page Editor",
+                    "descriptions": [
+                        "Created page editor using HTML, CSS.",
+                        "I'm support to <strong>farhan</strong> for the page editor."
+                    ],
+                    "link": "../pages/page_editor.html"
+                }
+            ]
+        },
+        {
+            "name": "Farhan",
+            "surname": "Fasir",
+            "role": 3,
+            "image": "student-3.jpg",
+            "uow_id": "w1953921",
+            "iit_id": "20220372",
+            "tasks": [
+                {
+                    "title": "Quiz",
+                    "descriptions": [
+                        "Created a quiz page with 10 questions and 4 options for each question.",
+                        "Used <strong>JavaScript</strong> to check the answers and display the results.",
+                        "Used <strong>setInterval()</strong> method to create a timer for the quiz.",
+                        "Used <strong>JavaScript</strong> to fetch the questions from the <strong>JSON</strong> file.",
+                        "Used <strong>display: none;</strong> to hide the questions and display the results using JavaScript.",
+                        "Used <strong>CSS</strong> to style the page."
+                    ],
+                    "link": "../pages/quiz.html"
+                },
+                {
+                    "title": "Details",
+                    "descriptions": [
+                        "Created details page using HTML, CSS & JavaScript.",
+                        "Added <strong>hover</strong> effect to the <strong>images and student cards</strong> using CSS.",
+                        "Each student card shows the <strong>Student name</strong> along with their <strong>Role</strong>.",
+                        "Used <strong>JavaScript</strong> to fetch the students from the <strong>JSON</strong> file."
+                    ],
+                    "link": "../pages/details.html"
+                },
+                {
+                    "title": "Home Page",
+                    "descriptions": [
+                        "In Home page, I worked with <strong>Sayugan</strong> to create the page structure.",
+                        "Used background images with full width and <strong>background-attachment: fixed;</strong> to create a parallax effect.",
+                        "Added common footer for every page."
+                    ],
+                    "link": "../index.html"
+                },
+                {
+                    "title": "Extra Content Page (Players)",
+                    "descriptions": [
+                        "Created player page using HTML, CSS & JavaScript.",
+                        "Used <strong>localstorage</strong> to store the player index.",
+                        "Used <strong>JavaScript</strong> to fetch the player details from the <strong>JSON</strong> file.",
+                        "Created parralex effect using <strong>CSS</strong>."
+                    ],
+                    "link": "../pages/player.html"
+                },
+                {
+                    "title": "Page Editor",
+                    "descriptions": [
+                        "Created page editor using HTML, CSS & JavaScript.",
+                        "Used <strong>localstorage</strong> to store the student role.",
+                        "Used <strong>JavaScript</strong> to fetch the students details from the <strong>JSON</strong> file."
+                    ],
+                    "link": "../pages/page_editor.html"
+                }
+            ]
+        },
+        {
+            "name": "Oshada",
+            "surname": "Wasath",
+            "role": 4,
+            "image": "student-4.jpg",
+            "uow_id": "w1956189",
+            "iit_id": "20221533",
+            "tasks": [
+                {
+                    "title": "Gallery",
+                    "descriptions": [
+                        "Created Gallery page using HTML, CSS $ JavaScript.",
+                        "Used <strong>CSS</strong> to style the Image Gallery.",
+                        "Used <strong>Js</strong> to Image gallery,color change and the font size chanege."
+                        
+                    ],
+                    "link": "../pages/gallery.html"
+                },
+                {
+                    "title": "Sitemap",
+                    "descriptions": [
+                        "Created Siemap page using HTML, CSS $ JavaScript.",
+                        "Used <strong>CSS</strong> to style the Sitemap."
+                    ],
+                    "link": "../pages/sitemap.html"
+                },
+                {
+                    "title": "Extra content page(player)",
+                    "descriptions": [
+                        "Created Extra content page using HTML, CSS $ JavaScript."
+                    ],
+                    "link": "../pages/player.html"
+                }
+            ]
+        }
+    ]
+}

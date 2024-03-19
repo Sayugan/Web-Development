@@ -1,0 +1,294 @@
+* {  
+  margin: 0;
+  padding: 15px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;  
+  transition: all 0.2s linear;
+  text-transform: capitalize;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.container .title {
+  font-size: 3rem;
+  color: #444;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.container .products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 10rem;
+}
+
+.container .products-container .product {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #4b95cd;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  outline: 0.1rem solid #ccc;
+  outline-offset: -1.5rem;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+.container .products-container .product:hover {
+  outline: 0.2rem solid black;
+  outline-offset: 0;
+}
+
+.container .products-container .product img {
+  height: 25rem;
+}
+
+.container .products-container .product:hover img {
+  transform: scale(0.9);
+}
+.container .products-container .product:hover .price {
+  transform: scale(1.3);
+  color: #d90606;
+}
+
+.container .products-container .product h3 {
+  padding: 0.5rem 0;
+  font-size: 2rem;
+  color: #444;
+}
+
+.container .products-container .product:hover h3 {
+  color: #d90606;
+  transform: scale(0.9);
+}
+
+.container .products-container .product .price {
+  font-size: 2rem;
+  color: #444;
+}
+.container .products-container .product .quantity {
+  font-size: 0;
+  color: transparent;
+}
+.container .products-container .product .buy {
+  font-size: 2rem;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgb(189, 227, 51);
+  border-color: red(255, 0, 157);
+}
+.container .products-container .product:hover .quantity {
+  color: #d90606;
+  font-size: 2rem;
+  transform: scale(0.9);
+}
+.container .products-container .product:hover .buy {
+  font-size: 2rem;
+  color: #d90606;
+  font-style: italic;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  transform: scale(1.1);
+}
+#Registration-form::placeholder {
+  color: #d90606;
+  opacity: 1;
+  font-weight: normal;
+}
+.container .font {
+  border-radius: 0px;
+  border-color: transparent;
+  box-shadow: 2px 0px 11px #999799;
+  font-family: Lato, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+  background: #d90606;
+  padding: 9px 10px 9px 10px;  
+  margin-left: 00px;
+  margin-right: 00px;
+  border-bottom-left-radius: 25px;
+}
+.container .font:hover {
+  background: black;  
+}
+.container .products-container .product .quantity ::placeholder {
+  color: #d90606;
+  opacity: 1;
+  font-weight: bold;
+}
+#fontdown {
+  border-radius: 0px;
+  border-color: transparent;
+  box-shadow: 2px 0px 11px #999799;
+  font-family: Lato, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+  background: #d90606;
+  padding: 9px 10px 9px 10px;  
+  margin-left: 00px;
+  margin-right: 00px;
+  border-top-right-radius: 25px;
+}
+#fontdown:hover {
+  background: black;
+}
+#Registration-form {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #e0e847;
+  border-radius: 100px;
+  padding: 20px 50px 40px;
+  box-shadow: 1px 4px 10px 1px #aaa;
+}
+
+#Registration-form * {
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#Registration-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: Lato, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(213, 92, 17);
+}
+
+#Registration-form input {
+  margin-bottom: 15px;
+}
+
+#Registration-form input[type="text"] {
+  display: block;
+  height: 32px;
+  padding: 6px 16px;
+  width: 100%;
+  border: none;
+  background-color: #f3f3f3;
+  color: black;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+}
+#Registration-form input[type="email"] {
+  display: block;
+  height: 32px;
+  padding: 6px 16px;
+  width: 100%;
+  border: none;
+  background-color: #f3f3f3;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+}
+#Registration-form input[type="password"] {
+  display: block;
+  height: 32px;
+  padding: 6px 16px;
+  width: 100%;
+  border: none;
+  background-color: #f3f3f3;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+}
+#Registration-form input[type="number"] {
+  display: block;
+  height: 32px;
+  padding: 6px 16px;
+  width: 100%;
+  border: none;
+  background-color: #f3f3f3;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  -moz-appearance: textfield;
+}
+#Registration-form label {
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  color: black;
+  display: block;
+  height: auto;
+  padding: 6px 16px;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+#Registration-form select {
+  display: block;
+  padding: 0px 1em 0px 0px;
+  padding-right: 0px;
+  height: 32px;
+  width: 100%;
+  border: none;
+  background-color: #f3f3f3;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  color: black;
+}
+#Registration-form option {
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  color: black;
+}
+
+#Registration-form input[type="checkbox"] {
+  float: left;
+}
+.button {
+  border-radius: 1500px;
+  border-color: transparent;
+  box-shadow: 2px 0px 11px #999799;
+  font-family: Lato, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+  background: #d90606;
+  padding: 9px 60px 9px 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.button:hover {
+  background: black;  
+}
+#Registration-form ::placeholder {
+  color: #aaaaaa;
+}
+#Registration-form .input::-webkit-outer-spin-button,
+#Registration-form .input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football - Quiz</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/quiz.css">
+    <link rel="stylesheet" href="../css/score_card.css">
+    <link rel="stylesheet" href="../css/footer.css">
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <div>
+      <div class="nav-container">
+        <div class="logo-section">
+          <img class="logo" src="../images/logo.png" alt="">
+        </div>
+        <nav id="navigation" class="nav-items">
+          <ul>
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="comments.html" class="nav-link">Comments</a>
+            </li>
+            <li class="nav-item">
+              <a href="shop.html" class="nav-link">Shop</a>
+            </li>
+            <li class="nav-item active">
+              <a href="quiz.html" class="nav-link">Quiz</a>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="sitemap.html" class="nav-link">Sitemap</a>
+            </li>
+            <li class="nav-item">
+              <a href="details.html" class="nav-link">About Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Quiz Start -->
+    <div id="quiz" class="container quiz-bg-image">
+      <div class="quiz">
+        <div class="quiz-head">
+          <p class="question-count-text score-text">
+            Completed: <span id="question_count"></span>
+          </p>
+          <p class="score-text">Total Score: <span id="score"></span></p>
+          <p id="quiz-timer" class="timer"></p>
+        </div>
+
+        <div class="content-body">
+          <p id="question" class="quiz-question"></p>
+          <p class="quiz-options"></p>
+          <p class="quiz-options"></p>
+          <p class="quiz-options"></p>
+          <p class="quiz-options"></p>
+        </div>
+      </div>
+    </div>
+    <!-- Quiz End -->
+
+    <!-- Score Card Start -->
+    <div id="score_card" class="container quiz-bg-image hidden">
+      <div class="score-card content-body">
+        <div class="score-card-head">
+          <h1 id="score_card_title" class="score-card-title">
+            Quiz Completed!
+          </h1>
+        </div>
+        <div class="score-card-body">
+          <div>
+            <p id="score_status" class="score-card-text score-card-msg"></p>
+          </div>
+          <div>
+            <p
+              id="score_card_questions"
+              class="score-card-text card-text-item"
+            ></p>
+          </div>
+          <div>
+            <p
+              id="score_card_wrong_answers"
+              class="score-card-text card-text-item"
+            ></p>
+          </div>
+          <div>
+            <p id="score_card_score" class="score-card-text card-text-item"></p>
+          </div>
+          <div>
+            <p id="score_card_grade" class="score-card-text card-text-item"></p>
+          </div>
+          <div>
+            <p id="score_card_time" class="score-card-text card-text-item"></p>
+          </div>
+          <div>
+            <button id="play_again" class="btn btn-primary">Play Again</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Score Card End -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <div class="footer-container">
+          <h3 class="copyright">Copyright &copy; 2023. All Rights Reserved.</h3>
+        </div>
+
+        <div class="footer-container">
+          <span id="page_editor" class="page-editor" data-student="3"
+            >Page Editor</span
+          >
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Javascript -->
+    <script src="../js/script.js"></script>
+    <script src="../js/timer.js"></script>
+    <script src="../js/quiz.js"></script>
+    <script src="../js/score_card.js"></script>
+  </body>
+</html>

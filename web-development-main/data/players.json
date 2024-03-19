@@ -1,0 +1,40 @@
+{
+    "players": [
+        {
+            "id": 1,
+            "name": "Lionel Messi",
+            "trophies": 34,
+            "goals": "Goals scored: 800+ (club and country)",
+            "extra": "Most goals scored in a single season: 73",
+            "primary": "messi.jpg",
+            "secondary": "messi2.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Cristiano Ronaldo",            
+            "trophies": 31,
+            "goals": "Goals scored: 700+ (club and country)",
+            "extra": "Most goals scored in a single season: 61",            
+            "primary": "ronaldo.jpg",
+            "secondary": "ronaldo2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Neymar Jr.",
+            "trophies": 26,
+            "goals": "Goals scored: 500+ (club and country)",
+            "extra": "Most goals scored in a single season: 47",
+            "primary": "neymar.jpg",
+            "secondary": "neymar2.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Kylian Mbappé",
+            "trophies": 23,
+            "goals": "Goals scored: 200+ (club and country)",
+            "extra": "Most goals scored in a single season: 33",
+            "primary": "kylian.jpg",
+            "secondary": "kylian2.jpg"
+        }
+    ]
+}

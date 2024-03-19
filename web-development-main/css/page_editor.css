@@ -1,0 +1,83 @@
+.container {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.content {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.felx-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;  
+}
+
+.student-details {
+  margin: 1rem 0;
+}
+
+.student-details li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.task-list-item {
+  padding: 1rem;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #ff9500;
+  text-align: center;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.task-list-item:hover {
+  background-color: #ff7f00;
+}
+
+.task-link {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.task-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.task-link:hover {
+  color: #fff;
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+.link {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.link a {
+  text-decoration: none;
+  color: #fff;
+}

@@ -1,0 +1,104 @@
+{
+    "questions": [
+        {
+            "question": "Which country has won the most FIFA World Cups?",
+            "choices": [
+                "Brazil",
+                "Germany",
+                "Argentina",
+                "Italy"
+            ],
+            "answer": "Brazil"
+        },
+        {
+            "question": "Which player has scored the most goals in a single season of the English Premier League?",
+            "choices": [
+                "Lionel Messi",
+                "Thierry Henry",
+                "Cristiano Ronaldo",
+                "Mohamed Salah"
+            ],
+            "answer": "Mohamed Salah"
+        },
+        {
+            "question": "Which club has won the most UEFA Champions League titles?",
+            "choices": [
+                "Barcelona",
+                "Real Madrid",
+                "Liverpool",
+                "AC Milan"
+            ],
+            "answer": "Real Madrid"
+        },
+        {
+            "question": "Which player won the Golden Ball at the 2018 FIFA World Cup?",
+            "choices": [
+                "Luka Modric",
+                "Cristiano Ronaldo",
+                "Lionel Messi",
+                "Neymar"
+            ],
+            "answer": "Luka Modric"
+        },
+        {
+            "question": "Which country won the first FIFA World Cup in 1930?",
+            "choices": [
+                "Uruguay",
+                "Brazil",
+                "Argentina",
+                "Italy"
+            ],
+            "answer": "Uruguay"
+        },
+        {
+            "question": "Which player has won the most Ballon d'Or awards?",
+            "choices": [
+                "Lionel Messi",
+                "Cristiano Ronaldo",
+                "Zinedine Zidane",
+                "Ronaldinho"
+            ],
+            "answer": "Lionel Messi"
+        },
+        {
+            "question": "Which country has won the most UEFA European Championships?",
+            "choices": [
+                "France",
+                "Spain",
+                "Germany",
+                "Italy"
+            ],
+            "answer": "Germany"
+        },
+        {
+            "question": "Which club has won the most English Premier League titles?",
+            "choices": [
+                "Manchester United",
+                "Chelsea",
+                "Liverpool",
+                "Arsenal"
+            ],
+            "answer": "Manchester United"
+        },
+        {
+            "question": "Which player has won the most UEFA Champions League titles?",
+            "choices": [
+                "Lionel Messi",
+                "Cristiano Ronaldo",
+                "Paolo Maldini",
+                "Ryan Giggs"
+            ],
+            "answer": "Paolo Maldini"
+        },
+        {
+            "question": "Which country hosted the 2014 FIFA World Cup?",
+            "choices": [
+                "Brazil",
+                "Germany",
+                "Argentina",
+                "Russia"
+            ],
+            "answer": "Brazil"
+        }
+    ]
+}

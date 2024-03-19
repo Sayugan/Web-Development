@@ -1,0 +1,48 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.player-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+.description {
+  padding: 1rem;
+  margin: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  background: #00000057;
+  text-align: center;
+}
+
+.center {
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

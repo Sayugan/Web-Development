@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- https://stackoverflow.com/questions/19250910/viewport-argument-value-device-width-for-key-width-is-invalid-and-has-been -->
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes"
+   >
+    <title>Football - Home</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <script src="js/presentation.js"></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <div class="nav-container">
+      <div class="logo-section">
+        <img class="logo" src="images/logo.png" alt="">
+      </div>
+      <nav id="navigation" class="nav-items">
+        <ul>
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./pages/comments.html" class="nav-link">Comments</a>
+          </li>
+          <li class="nav-item">
+            <a href="./pages/shop.html" class="nav-link">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="./pages/quiz.html" class="nav-link">Quiz</a>
+          </li>
+          <li class="nav-item">
+            <a href="./pages/gallery.html" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="./pages/sitemap.html" class="nav-link">Sitemap</a>
+          </li>
+          <li class="nav-item">
+            <a href="./pages/details.html" class="nav-link">About Us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Main Content -->
+    <div class="section-container bg-image">
+      <div class="section-items intro">
+        <h1>Welcome To Our Football Website!</h1>
+        <h3>
+          "Stay up to date with the latest football news, player stats, and team
+          standings."
+        </h3>
+      </div>
+    </div>
+
+    <div class="sport_selections">
+      <ul>
+        <li>
+          <span class="player-link">
+            <img
+              src="images/players/messi.jpg"
+              data-player="1"
+              width="260"
+              height="170"
+              alt="player-image"
+           >
+          </span>
+        </li>
+        <li>
+          <span class="player-link">
+            <img
+              src="images/players/ronaldo.jpg"
+              data-player="2"
+              width="260"
+              height="170"
+              alt="player-image"
+           >
+          </span>
+        </li>
+        <li>
+          <span class="player-link">
+            <img
+              src="images/players/neymar2.jpg"
+              data-player="3"
+              width="260"
+              height="170"
+              alt="player-image"
+           >
+          </span>
+        </li>
+        <li>
+          <span class="player-link">
+            <img
+              src="images/players/kylian.jpg"
+              data-player="4"
+              width="260"
+              height="170"
+              alt="player-image"
+           >
+          </span>
+        </li>
+      </ul>
+    </div>
+    <!-- Main Content End -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <div class="footer-container">
+          <h3 class="copyright">Copyright &copy; 2023. All Rights Reserved.</h3>
+        </div>
+
+        <div class="footer-container">
+          <span id="page_editor" class="page-editor" data-student="2">Page Editor</span>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Script Start -->
+    <script src="js/script.js"></script>
+    <!-- Script End -->
+  </body>
+</html>

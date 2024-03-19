@@ -1,0 +1,83 @@
+
+.lin{
+    stroke: rgb(249, 249, 253);
+    stroke-width: 3;
+}
+.homeBttn{
+    fill: url(#gr);
+    stroke: rgb(238, 238, 247);
+    stroke-width: 5;
+    stroke-dasharray: 1000;
+     stroke-dashoffset: 1000;
+    stroke-linecap: butt;
+    transition: 2s;
+     
+}
+.homeBttn:hover{
+    
+    stroke-dashoffset: 0;
+    stroke-dasharray: 1000;
+    stroke-width: 5;
+    transition: 2s;
+
+}
+.bttn{
+    fill: url(#gr);
+    stroke: rgb(239, 239, 245);
+    stroke-width: 5;
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+    stroke-linecap: butt;
+    transition: 2s;
+}
+.bttn:hover{
+    
+    stroke-dashoffset: 0;
+    stroke-dasharray: 700;
+    stroke-width: 10;
+}
+.textN{
+    font-family:Snell Roundhand, cursive;
+    text-anchor:middle;
+    font-size: 17px;
+    fill: aliceblue;
+    
+}
+.textNM{
+    font-family:Snell Roundhand, cursive;
+    text-anchor:middle;
+    font-size: 25px;
+    fill: aliceblue;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .image {
+    height: 40vh;
+    
+
+  }
+  button {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    margin-top: 125px;
+  }
+
+  .svgBackground {
+    background: rgb(49, 49, 50);
+    
+  }
+
+  
+  .navigationBar {
+  }
+  p {
+    text-align: center;
+    padding: 150px;
+    letter-spacing: 15px;
+    font-size: 75px;
+    color: #f7fdf7;
+  }

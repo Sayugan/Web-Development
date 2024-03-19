@@ -1,0 +1,25 @@
+.footer {
+  height: 100%;
+  display: flex;
+  background-color: #ff9400;
+  justify-content: space-between;
+}
+
+.footer-container {
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 20px;
+  text-align: center;  
+  display: flex;
+}
+
+.copyright {
+  font-size: medium;
+  font-weight: 300;
+}
+
+.page-editor {
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+}
